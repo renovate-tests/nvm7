@@ -1,5 +1,6 @@
 {
-  "extends": [
-    "config:base"
-  ]
+  "extends": ["github>PicturePipe/renovate-config"],
+  "node": {
+    "supportPolicy": ["lts_latest"]
+  }
 }
